@@ -1,1 +1,50 @@
+div.day-box.PREP
+{
+    background-image: url(images/farm1.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 675px;
+    width: 675px;
+    z-index: 0;
+    position:relative;
+   
+    
+}
 
+div.reading-box
+{
+    background-image: url(images/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 225px;
+    width: 450px;
+    z-index: 1;
+    top: 50px;
+    left:50px;
+    position: absolute;
+
+}
+
+div.prep-box
+{
+    background-image: url(images/sprites.png);
+    background-position: 0 0;
+    background-repeat:no-repeat;
+    height: 225px;
+    width: 400px;
+    z-index: 2;
+    top: 50px;
+    left:300px;
+    position: absolute;
+}
+
+
+
+
+div.reading-box:hover{
+    background-position: -415px -255px;
+}
+
+div.prep-box:hover{
+    background-position: 0 -255px;
+}
